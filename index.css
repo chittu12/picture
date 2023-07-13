@@ -1,0 +1,151 @@
+*{
+margin:0;padding:0;
+box-sizing:border-box;
+outline:none;border:none;
+text-decoration:none;
+transition: all.2s linear;
+}
+body
+{
+
+background:url('bg.jpg') no-repeat;
+background-size:cover;
+background-position:center;
+justify-content:center;
+align-items:center;
+width:100%;
+
+}
+
+
+.container.h1{
+text-align:center;
+}
+.h1{
+color:white;
+}
+
+
+.container
+{
+padding:25px 10%;
+text-align:center;
+}
+#search-form
+{
+display:flex;
+justify-content:center;
+text-align:center;
+align-items:center;
+}
+.container #search-input
+{
+padding-left:300px;
+width:100%;
+max-width:400px;
+padding:10px 20px;
+border:none;
+box-shadow:0 0 6px black;
+border-radius:5px;
+font-size:18px;
+margin-top:20px;
+}
+.container #btn1
+{
+margin-left:20px;
+font-size:22px;
+margin-top:20px;
+}
+
+.container .image-container
+{
+display:flex;
+justify-content:center;
+flex-wrap:wrap;
+gap:45px;
+padding-top:50px;
+}
+
+.container .image-container.image
+{
+padding:15px;
+
+border:2px solid black;
+
+border-radius:5px;
+}
+.container #box
+{
+width:100%;
+height:100%px;
+margin-top:50px;
+
+background-color:white;
+padding-bottom:30px;
+background:transparent;
+backdrop-filter:blur(100px);
+box-shadow:0 0 8px black;
+}
+
+.container .image-container .image
+{
+margin-bottom:60px;
+width:30%;
+height:100%;
+border-radius:5px;
+box-shadow:0 0 6px black;
+overflow:hidden;
+padding-top:20px;
+padding-bottom:20px;
+background-color:black;
+}
+
+.container .image-container .image img
+{
+height:200px;
+width:200px;
+object-fit:cover;
+margin-bottom:10px;
+border-radius:5px;
+}
+.container .image-container .image img:hover
+{
+opacity:0.5;
+}
+.container .image-container a{
+font-size:20px;
+text-decoration:none;
+color:white;
+display:block;
+text-transform:capitalize;
+}
+@media screen and(max-width:768px)
+{
+.image-container{
+padding:20px;
+}
+.image{
+width:50%;
+}
+}
+@media screen and(max-width:480px)
+{
+.image-container{
+width:100%;
+height:200px;
+}
+}
+#show-more
+{
+background-color:#008cba;
+font-size:18px;
+border:none;
+color:white;
+padding:10px 20px;
+text-align:center;
+display:block;
+margin:30px auto;
+border-radius:5px;
+cursor:pointer;
+display:none;
+}
